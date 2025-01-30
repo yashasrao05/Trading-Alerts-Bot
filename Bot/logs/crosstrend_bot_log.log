@@ -1,0 +1,27 @@
+2025-01-23 23:19:07 IST | INFO | No new documents to insert
+2025-01-24 01:31:33 IST | INFO | Successfully inserted 1 new documents
+2025-01-24 08:19:35 IST | INFO | Successfully inserted 1 new documents
+2025-01-24 09:31:10 IST | INFO | Successfully inserted 1 new documents
+2025-01-24 22:45:19 IST | INFO | Successfully inserted 3 new documents
+2025-01-24 22:45:23 IST | INFO | No new documents to insert
+2025-01-24 22:45:27 IST | INFO | No new documents to insert
+2025-01-25 01:31:18 IST | INFO | Successfully inserted 1 new documents
+2025-01-25 01:49:36 IST | INFO | No new documents to insert
+2025-01-25 17:34:12 IST | INFO | Successfully inserted 4 new documents
+2025-01-25 22:13:59 IST | INFO | Successfully inserted 1 new documents
+2025-01-27 18:09:18 IST | INFO | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-27 00:00:00
+2025-01-27 18:09:19 IST | INFO | Successfully inserted 11 new documents
+2025-01-27 21:31:23 IST | INFO | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-27 04:00:00 UTC
+2025-01-27 21:31:24 IST | INFO | Successfully inserted 1 new documents
+2025-01-30 01:54:36 IST | INFO | Entry Analysis: Price crossed above DEMA at timestamp: 2025-01-28 04:00:00 UTC
+2025-01-30 01:54:37 IST | INFO | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-28 20:00:00 UTC
+2025-01-30 01:54:37 IST | INFO | Entry Analysis: Price crossed above DEMA at timestamp: 2025-01-29 08:00:00 UTC
+2025-01-30 01:54:38 IST | INFO | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-29 16:00:00 UTC
+2025-01-30 01:54:38 IST | INFO | Entry Analysis: Price crossed above DEMA at timestamp: 2025-01-29 20:00:00 UTC
+2025-01-30 01:54:39 IST | INFO | Successfully inserted 13 new documents
+2025-01-30 20:07:52 IST | INFO | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-29 16:00:00 UTC
+2025-01-30 20:07:53 IST | INFO | Entry Analysis: Price crossed above DEMA at timestamp: 2025-01-29 20:00:00 UTC
+2025-01-30 20:07:53 IST | INFO | Entry Analysis: Golden cross event at timestamp: 2025-01-30 08:00:00 UTC
+2025-01-30 20:07:54 IST | INFO | Entry Analysis: Long entry signal at timestamp: 2025-01-30 08:00:00 UTC
+2025-01-30 20:07:54 IST | INFO | Successfully inserted 4 new documents
+2025-01-30 21:31:29 IST | INFO | Successfully inserted 1 new documents
