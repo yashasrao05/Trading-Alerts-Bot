@@ -3,23 +3,16 @@ import time
 from threading import Thread
 from handlers import TelegramHandler
 import traceback
+import requests
+from http.client import RemoteDisconnected
 import telebot
 from main import main
 
-# Global variable to ensure `run_analysis` runs only once per cycle
-analysis_ran = False
 
 def run_analysis():
     """
     Executes the main analysis logic. Handles errors and sends appropriate Telegram notifications.
     """
-    global analysis_ran
-
-    # If already executed, skip this call
-    if analysis_ran:
-        return
-
-    analysis_ran = True
     try:
         main()
     except ValueError:
@@ -31,13 +24,10 @@ def run_analysis():
         telegram_handler.send_message("Error occurred: E005")
         print(error_msg)
 
-    # Reset the flag after execution
-    analysis_ran = False
-
 
 def schedule_thread():
     """
-    Manages scheduled tasks and ensures `run_analysis` executes only once per pending period.
+    Manages scheduled tasks.
     """
     while True:
         try:
@@ -59,14 +49,26 @@ def polling_thread():
     while True:
         try:
             telegram_handler.bot.polling(none_stop=True, interval=5)
+        
         except telebot.apihelper.ApiException as e:
-            if 'Too Many Requests' in str(e):  # Handle rate limiting
-                time.sleep(10)  # Wait before retrying to avoid excessive retries
+            error_text = str(e)
+            if 'Too Many Requests' in error_text:
+                print(f"⚠️ Rate limit hit: {error_text}. Retrying in 30s...")
+                time.sleep(30)  # Longer delay for rate limiting
             else:
-                error_msg = f"Error in Telegram polling: {str(e)}\n{traceback.format_exc()}"
+                error_msg = f"API Error in polling: {error_text}\n{traceback.format_exc()}"
                 telegram_handler.send_message("Error occurred: E007")
                 print(error_msg)
-                time.sleep(60)  # Wait for a minute before retrying
+                time.sleep(60)
+
+        except (requests.exceptions.ConnectionError, RemoteDisconnected) as e:
+            print(f"⚠️ Network issue: {str(e)}. Retrying in 10s...")
+            time.sleep(10)  # Short retry delay for network issues
+
+        except requests.exceptions.ReadTimeout as e:
+            print(f"⚠️ Read timeout: {str(e)}. Retrying in 10s...")
+            time.sleep(10)
+
         except Exception as e:
             error_msg = f"Unexpected error in polling: {str(e)}\n{traceback.format_exc()}"
             telegram_handler.send_message("Error occurred: E007")
@@ -89,15 +91,14 @@ def main_bot():
     schedule.every().day.at("21:31").do(run_analysis)
     schedule.every().day.at("01:31").do(run_analysis)
 
-    # Run once immediately at startup
-    #run_analysis()
+    run_analysis() # Run immediately once at startup
 
     # Start threads for scheduling and polling
     Thread(target=schedule_thread, daemon=True).start()
     Thread(target=polling_thread, daemon=True).start()
 
     # Keep the main thread alive
-    while True:
+    while True: 
         time.sleep(1)
 
 

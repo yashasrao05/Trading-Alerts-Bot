@@ -25,3 +25,74 @@
 2025-01-30 20:07:54 IST | INFO | Entry Analysis: Long entry signal at timestamp: 2025-01-30 08:00:00 UTC
 2025-01-30 20:07:54 IST | INFO | Successfully inserted 4 new documents
 2025-01-30 21:31:29 IST | INFO | Successfully inserted 1 new documents
+2025-01-31 01:31:17 IST | INFO | Successfully inserted 1 new documents
+2025-01-31 14:33:48 IST | INFO | Successfully inserted 3 new documents
+2025-01-31 14:33:51 IST | INFO | No new documents to insert
+2025-01-31 18:13:55 IST | INFO | Successfully inserted 1 new documents
+2025-01-31 21:34:17 IST | INFO | Successfully inserted 1 new documents
+2025-02-01 17:23:27 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-01-31 20:00:00 UTC
+2025-02-01 17:23:34 IST | INFO | Successfully inserted 4 new documents
+2025-02-01 17:31:31 IST | INFO | Successfully inserted 1 new documents
+2025-02-01 21:31:21 IST | INFO | Successfully inserted 1 new documents
+2025-02-02 17:31:05 IST | INFO | Successfully inserted 5 new documents
+2025-02-02 21:31:15 IST | INFO | Successfully inserted 1 new documents
+2025-02-03 01:31:22 IST | INFO | Successfully inserted 1 new documents
+2025-02-03 17:25:37 IST | INFO | Successfully inserted 3 new documents
+2025-02-03 17:31:20 IST | INFO | Successfully inserted 1 new documents
+2025-02-05 17:51:59 IST | ALERTS | Entry Analysis: Death cross event at timestamp: 2025-02-05 12:00:00 UTC
+2025-02-05 17:52:00 IST | ALERTS | Entry Analysis: Short entry signal at timestamp: 2025-02-05 12:00:00 UTC
+2025-02-05 17:52:01 IST | INFO | Successfully inserted 12 new documents
+2025-02-06 21:20:00 IST | INFO | Successfully inserted 6 new documents
+2025-02-06 21:31:05 IST | INFO | Successfully inserted 1 new documents
+2025-02-07 01:31:10 IST | INFO | Successfully inserted 1 new documents
+2025-02-07 20:56:17 IST | INFO | Successfully inserted 4 new documents
+2025-02-07 21:31:09 IST | INFO | Successfully inserted 1 new documents
+2025-02-08 15:31:45 IST | INFO | Successfully inserted 4 new documents
+2025-02-08 20:36:48 IST | INFO | Successfully inserted 1 new documents
+2025-02-08 21:31:22 IST | INFO | Successfully inserted 1 new documents
+2025-02-09 21:19:02 IST | INFO | Successfully inserted 5 new documents
+2025-02-09 21:31:28 IST | INFO | Successfully inserted 1 new documents
+2025-02-10 01:31:05 IST | INFO | Successfully inserted 1 new documents
+2025-02-10 19:08:22 IST | INFO | Successfully inserted 4 new documents
+2025-02-10 22:20:22 IST | INFO | Successfully inserted 1 new documents
+2025-02-11 01:31:29 IST | INFO | Successfully inserted 1 new documents
+2025-02-12 22:42:59 IST | INFO | Successfully inserted 11 new documents
+2025-02-20 22:59:04 IST | INFO | Successfully inserted 48 new documents
+2025-02-22 12:30:36 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-02-21 20:00:00 UTC
+2025-02-22 12:30:37 IST | INFO | Successfully inserted 9 new documents
+2025-02-25 18:56:46 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-02-21 20:00:00 UTC
+2025-02-25 18:56:47 IST | ALERTS | Entry Analysis: Death cross event at timestamp: 2025-02-23 04:00:00 UTC
+2025-02-25 18:56:47 IST | ALERTS | Entry Analysis: Short entry signal at timestamp: 2025-02-23 04:00:00 UTC
+2025-02-25 18:56:48 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-25 08:00:00 UTC
+2025-02-25 18:56:48 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-25 12:00:00 UTC
+2025-02-25 18:56:49 IST | INFO | Successfully inserted 20 new documents
+2025-03-01 01:06:54 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-25 16:00:00 UTC
+2025-03-01 01:06:55 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-25 20:00:00 UTC
+2025-03-01 01:06:55 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-26 16:00:00 UTC
+2025-03-01 01:06:56 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-26 20:00:00 UTC
+2025-03-01 01:06:56 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-27 00:00:00 UTC
+2025-03-01 01:06:57 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-27 04:00:00 UTC
+2025-03-01 01:07:01 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-28 00:00:00 UTC
+2025-03-01 01:07:01 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-28 04:00:00 UTC
+2025-03-01 01:07:01 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-28 08:00:00 UTC
+2025-03-01 01:07:02 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-28 12:00:00 UTC
+2025-03-01 01:07:02 IST | ALERTS | Entry Analysis: Price crossed lower FBB at timestamp: 2025-02-28 16:00:00 UTC
+2025-03-01 01:07:06 IST | INFO | Successfully inserted 19 new documents
+2025-03-02 22:10:07 IST | INFO | Successfully inserted 12 new documents
+2025-03-04 23:43:41 IST | ALERTS | Entry Analysis: Price crossed above DEMA at timestamp: 2025-03-02 20:00:00 UTC
+2025-03-04 23:43:42 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-03-03 16:00:00 UTC
+2025-03-04 23:43:43 IST | INFO | Successfully inserted 12 new documents
+2025-03-05 15:41:43 IST | INFO | Successfully inserted 4 new documents
+2025-03-06 21:52:26 IST | ALERTS | Entry Analysis: Price crossed above DEMA at timestamp: 2025-03-05 12:00:00 UTC
+2025-03-06 21:52:27 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-03-05 16:00:00 UTC
+2025-03-06 21:52:27 IST | ERROR | Failed to send Telegram message: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-03-06 21:52:27 IST | ALERTS | Entry Analysis: Price crossed above DEMA at timestamp: 2025-03-05 20:00:00 UTC
+2025-03-06 21:52:29 IST | INFO | Successfully inserted 8 new documents
+2025-03-09 21:39:26 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-03-06 20:00:00 UTC
+2025-03-09 21:39:27 IST | ALERTS | Entry Analysis: Price crossed above DEMA at timestamp: 2025-03-07 00:00:00 UTC
+2025-03-09 21:39:27 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-03-07 04:00:00 UTC
+2025-03-09 21:39:28 IST | ALERTS | Entry Analysis: Price crossed above DEMA at timestamp: 2025-03-07 12:00:00 UTC
+2025-03-09 21:39:28 IST | ALERTS | Entry Analysis: Price crossed below DEMA at timestamp: 2025-03-07 16:00:00 UTC
+2025-03-09 21:39:29 IST | ALERTS | Entry Analysis: Death cross event at timestamp: 2025-03-08 00:00:00 UTC
+2025-03-09 21:39:33 IST | ALERTS | Entry Analysis: Short entry signal at timestamp: 2025-03-08 00:00:00 UTC
+2025-03-09 21:39:33 IST | INFO | Successfully inserted 18 new documents
